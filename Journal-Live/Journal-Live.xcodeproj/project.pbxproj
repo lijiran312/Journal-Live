@@ -13,24 +13,8 @@
 		78ED7E722429F330007DB25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ED7E712429F330007DB25D /* Assets.xcassets */; };
 		78ED7E752429F330007DB25D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78ED7E742429F330007DB25D /* Preview Assets.xcassets */; };
 		78ED7E782429F330007DB25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ED7E762429F330007DB25D /* LaunchScreen.storyboard */; };
+		78ED7EAC242CA4FA007DB25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78ED7EAB242CA4FA007DB25D /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		78ED7E7F2429F331007DB25D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78ED7E602429F32E007DB25D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78ED7E672429F32E007DB25D;
-			remoteInfo = "Journal-Live";
-		};
-		78ED7E8A2429F331007DB25D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78ED7E602429F32E007DB25D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78ED7E672429F32E007DB25D;
-			remoteInfo = "Journal-Live";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		78ED7E682429F32E007DB25D /* Journal-Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal-Live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,26 +25,11 @@
 		78ED7E742429F330007DB25D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78ED7E772429F330007DB25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78ED7E792429F330007DB25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78ED7E7E2429F331007DB25D /* Journal-LiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Journal-LiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78ED7E892429F331007DB25D /* Journal-LiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Journal-LiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78ED7EAB242CA4FA007DB25D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		78ED7E652429F32E007DB25D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78ED7E7B2429F331007DB25D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78ED7E862429F331007DB25D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				78ED7E682429F32E007DB25D /* Journal-Live.app */,
-				78ED7E7E2429F331007DB25D /* Journal-LiveTests.xctest */,
-				78ED7E892429F331007DB25D /* Journal-LiveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +114,7 @@
 		78ED7EA9242C9C93007DB25D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				78ED7EAB242CA4FA007DB25D /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -178,42 +146,6 @@
 			productReference = 78ED7E682429F32E007DB25D /* Journal-Live.app */;
 			productType = "com.apple.product-type.application";
 		};
-		78ED7E7D2429F331007DB25D /* Journal-LiveTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78ED7E952429F331007DB25D /* Build configuration list for PBXNativeTarget "Journal-LiveTests" */;
-			buildPhases = (
-				78ED7E7A2429F331007DB25D /* Sources */,
-				78ED7E7B2429F331007DB25D /* Frameworks */,
-				78ED7E7C2429F331007DB25D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78ED7E802429F331007DB25D /* PBXTargetDependency */,
-			);
-			name = "Journal-LiveTests";
-			productName = "Journal-LiveTests";
-			productReference = 78ED7E7E2429F331007DB25D /* Journal-LiveTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		78ED7E882429F331007DB25D /* Journal-LiveUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78ED7E982429F331007DB25D /* Build configuration list for PBXNativeTarget "Journal-LiveUITests" */;
-			buildPhases = (
-				78ED7E852429F331007DB25D /* Sources */,
-				78ED7E862429F331007DB25D /* Frameworks */,
-				78ED7E872429F331007DB25D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78ED7E8B2429F331007DB25D /* PBXTargetDependency */,
-			);
-			name = "Journal-LiveUITests";
-			productName = "Journal-LiveUITests";
-			productReference = 78ED7E892429F331007DB25D /* Journal-LiveUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,14 +158,6 @@
 				TargetAttributes = {
 					78ED7E672429F32E007DB25D = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					78ED7E7D2429F331007DB25D = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 78ED7E672429F32E007DB25D;
-					};
-					78ED7E882429F331007DB25D = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 78ED7E672429F32E007DB25D;
 					};
 				};
 			};
@@ -251,8 +175,6 @@
 			projectRoot = "";
 			targets = (
 				78ED7E672429F32E007DB25D /* Journal-Live */,
-				78ED7E7D2429F331007DB25D /* Journal-LiveTests */,
-				78ED7E882429F331007DB25D /* Journal-LiveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,20 +187,7 @@
 				78ED7E782429F330007DB25D /* LaunchScreen.storyboard in Resources */,
 				78ED7E752429F330007DB25D /* Preview Assets.xcassets in Resources */,
 				78ED7E722429F330007DB25D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78ED7E7C2429F331007DB25D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78ED7E872429F331007DB25D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				78ED7EAC242CA4FA007DB25D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,34 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78ED7E7A2429F331007DB25D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78ED7E852429F331007DB25D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78ED7E802429F331007DB25D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78ED7E672429F32E007DB25D /* Journal-Live */;
-			targetProxy = 78ED7E7F2429F331007DB25D /* PBXContainerItemProxy */;
-		};
-		78ED7E8B2429F331007DB25D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78ED7E672429F32E007DB25D /* Journal-Live */;
-			targetProxy = 78ED7E8A2429F331007DB25D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		78ED7E762429F330007DB25D /* LaunchScreen.storyboard */ = {
@@ -488,86 +370,6 @@
 			};
 			name = Release;
 		};
-		78ED7E962429F331007DB25D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal-LiveTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.Journal-LiveTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Journal-Live.app/Journal-Live";
-			};
-			name = Debug;
-		};
-		78ED7E972429F331007DB25D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal-LiveTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.Journal-LiveTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Journal-Live.app/Journal-Live";
-			};
-			name = Release;
-		};
-		78ED7E992429F331007DB25D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal-LiveUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.Journal-LiveUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Journal-Live";
-			};
-			name = Debug;
-		};
-		78ED7E9A2429F331007DB25D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal-LiveUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "---.Journal-LiveUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Journal-Live";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -585,24 +387,6 @@
 			buildConfigurations = (
 				78ED7E932429F331007DB25D /* Debug */,
 				78ED7E942429F331007DB25D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78ED7E952429F331007DB25D /* Build configuration list for PBXNativeTarget "Journal-LiveTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78ED7E962429F331007DB25D /* Debug */,
-				78ED7E972429F331007DB25D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78ED7E982429F331007DB25D /* Build configuration list for PBXNativeTarget "Journal-LiveUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78ED7E992429F331007DB25D /* Debug */,
-				78ED7E9A2429F331007DB25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
